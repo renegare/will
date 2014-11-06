@@ -2,7 +2,7 @@
     "name":         "renegare/will",
     "type":         "library",
     "license":      "MIT",
-    
+    "description": "Utility classes that (should) enable you to write more human readable code (e.g invalidate the use of if statements and the like)",
     "authors": [
         {"name": "Mr Moo", "email": "mudi@renegare.com", "homepage": "https://github.com/renegare"}
     ],
