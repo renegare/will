@@ -1,7 +1,10 @@
 clean:
-	rm -rf vendor
+	rm -rf vendor/
+
+setup:
+	composer install
 
 uni-test:
 	vendor/bin/phpunit
 
-test: clean uni-test
+test: clean setup uni-test
